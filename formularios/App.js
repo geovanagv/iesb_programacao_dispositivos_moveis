@@ -5,13 +5,13 @@ import { PaperProvider } from 'react-native-paper';
 import DrawerRoutes from './src/routes/DrawerRoutes';
 import Toast from 'react-native-toast-message';
 
-export default function App() {
+export default function App() { 
   return (
     <PaperProvider>
       <NavigationContainer>
         <DrawerRoutes />
       </NavigationContainer>
-      <Toast />
+      <Toast /> 
     </PaperProvider>
   );
-}
+} 
